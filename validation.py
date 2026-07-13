@@ -1,0 +1,1 @@
+max(abs(log_returns)) < 1

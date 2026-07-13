@@ -1,0 +1,8 @@
+# Project configuration
+
+START_DATE = "2015-01-01"
+END_DATE = "2026-01-01"
+
+RISK_FREE_RATE = 0.07
+
+TRADING_DAYS = 252
