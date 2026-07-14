@@ -236,6 +236,10 @@ Possible future enhancements include:
 ## Author
 
 Nokutenda Mushayakarara
+email: albannokumush@gmail.com 
+
+
+linkedin: https://www.linkedin.com/in/nokutenda-mushayakarara-2ab17a421
 
 Bachelor of Science (Honours) in Financial Mathematics (2026)
 
