@@ -1,0 +1,137 @@
+\documentclass[12pt,a4paper]{report}
+
+%------------------------------------------------
+% Packages
+%------------------------------------------------
+
+\usepackage[a4paper,margin=1in]{geometry}
+
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+
+\usepackage{abstract}   % for \abstract
+\usepackage{xcolor}     % for \textcolor
+
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\usepackage{setspace}
+\usepackage{caption}
+\usepackage{subcaption}
+
+\usepackage{titlesec}
+
+\usepackage{hyperref}
+
+\usepackage{fancyhdr}
+
+\usepackage{enumitem}
+
+\usepackage{color}
+
+\usepackage{natbib}
+
+\usepackage{url}
+
+\usepackage{tocbibind}
+
+%------------------------------------------------
+% Page Formatting
+%------------------------------------------------
+
+\onehalfspacing
+
+\setlength{\parindent}{0pt}
+
+\setlength{\parskip}{0.8em}
+
+\pagestyle{fancy}
+
+\fancyhf{}
+
+\fancyfoot[C]{\thepage}
+
+\fancyhead[L]{Portfolio Optimization Report}
+
+\fancyhead[R]{2026}
+
+%------------------------------------------------
+% Hyperlinks
+%------------------------------------------------
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=blue,
+    urlcolor=blue
+}
+
+%------------------------------------------------
+% Document
+%------------------------------------------------
+
+\begin{document}
+
+%------------------------------------------------
+% TITLE PAGE
+%------------------------------------------------
+
+
+\input{chapters/01_title}
+
+%------------------------------------------------
+% FRONT MATTER
+%------------------------------------------------
+
+\pagenumbering{roman}
+
+\input{chapters/02_abstract.tex}
+
+\input{chapters/03_executive_summary.tex}
+
+\tableofcontents
+
+\listoffigures
+
+\listoftables
+
+\clearpage
+
+%------------------------------------------------
+% MAIN MATTER
+%------------------------------------------------
+
+\pagenumbering{arabic}
+
+\input{chapters/04_introduction.tex}
+
+\input{chapters/05_perfomance.tex }
+
+\input{chapters/06_conclusion.tex}
+
+
+
+
+
+%------------------------------------------------
+% REFERENCES
+%------------------------------------------------
+
+\bibliographystyle{apalike}
+
+\bibliography{bibliography}
+
+%------------------------------------------------
+% APPENDIX
+%------------------------------------------------
+
+\appendix
+
+\input{chapters/appendix}
+
+\end{document}

@@ -1,0 +1,11 @@
+Portfolio Performance Report
+===========================
+
+Annual Return: 0.159266
+Annual Volatility: 0.211033
+Sharpe Ratio: 0.754697
+Sortino Ratio: 1.044970
+VaR 95%: -0.019167
+CVaR 95%: -0.029300
+Maximum Drawdown: -0.345626
+Calmar Ratio: 0.460805

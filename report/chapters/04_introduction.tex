@@ -1,0 +1,49 @@
+\chapter*{Introduction1}
+
+\section{Background}
+
+Portfolio management is fundamentally concerned with allocating capital across a set of financial assets in a manner that achieves an appropriate balance between expected return and investment risk. As financial markets have become increasingly complex and data-driven, quantitative methods have emerged as indispensable tools for supporting objective investment decisions. Rather than relying solely on intuition or subjective judgment, quantitative portfolio management applies statistical modelling, mathematical optimization, and financial theory to construct portfolios that seek to maximise returns while controlling risk.
+
+Modern Portfolio Theory (MPT), introduced by Harry Markowitz (1952), remains one of the most influential frameworks in investment management. The theory demonstrates that portfolio risk depends not only on the individual risk of each asset but also on the relationships between asset returns. Consequently, investors can improve portfolio efficiency through diversification by combining assets whose returns are imperfectly correlated. This principle forms the foundation of many contemporary portfolio construction techniques employed by investment managers worldwide.
+
+The Johannesburg Stock Exchange (JSE) represents the largest and most liquid securities exchange in Africa, providing investors with exposure to companies operating across multiple sectors of the South African economy. Given its economic significance and sectoral diversity, the JSE provides an appropriate environment for evaluating quantitative portfolio optimization techniques and assessing their practical investment performance.
+
+This report develops a quantitative portfolio optimization framework using historical equity data from selected JSE-listed companies. The analysis combines statistical estimation, Modern Portfolio Theory, covariance shrinkage, and historical backtesting to construct and evaluate an optimized investment portfolio. Portfolio performance is subsequently benchmarked against the Johannesburg Stock Exchange All Share Index (JSE ALSI) to determine whether optimization improves investment outcomes relative to a passive market investment.
+
+\section{Problem Statement}
+
+Although diversification remains a fundamental principle of investment management, constructing an efficient portfolio becomes increasingly difficult as the number of available securities expands. Investors must simultaneously estimate expected returns, portfolio risk, and the relationships among asset returns while balancing conflicting objectives of maximizing returns and minimizing risk. Traditional portfolio construction approaches based on subjective judgment may therefore produce allocations that are suboptimal or insufficiently diversified.
+
+Furthermore, estimation error in expected returns and covariance matrices may significantly affect portfolio optimization results. Consequently, there is a need for robust quantitative techniques capable of producing well-diversified portfolios while maintaining favourable risk-adjusted performance under realistic market conditions.
+
+\section{Objectives}
+
+The primary objective of this study is to develop and evaluate a quantitative portfolio optimization framework for selected Johannesburg Stock Exchange equities.
+
+The specific objectives are:
+
+\begin{enumerate}
+    \item Collect and preprocess historical daily price data for selected JSE-listed companies.
+    
+    \item Estimate expected asset returns and covariance matrices required for portfolio optimization.
+    
+    \item Apply covariance shrinkage techniques to improve portfolio risk estimation.
+    
+    \item Construct Minimum Variance and Maximum Sharpe Ratio portfolios using Modern Portfolio Theory.
+    
+    \item Evaluate portfolio performance through historical backtesting.
+    
+    \item Compare the optimized portfolio against the Johannesburg Stock Exchange All Share Index benchmark.
+\end{enumerate}
+
+\section{Scope of the Study}
+
+The analysis focuses exclusively on a portfolio of selected equities listed on the Johannesburg Stock Exchange. Historical daily adjusted closing prices are used to estimate returns and portfolio risk. Portfolio optimization is performed under the assumptions of Modern Portfolio Theory using historical estimates of expected returns and covariance matrices.
+
+The study evaluates portfolio performance using cumulative returns, wealth growth, drawdown analysis, and benchmark comparison. Practical market considerations such as transaction costs, taxes, liquidity constraints, and dynamic portfolio rebalancing are excluded from the analysis.
+
+\section{Structure of the Report}
+
+The remainder of this report is organized as follows.
+
+Chapter 2 describes the dataset, investment universe, and preprocessing procedures. Chapter 3 presents the portfolio optimization methodology, including return estimation, covariance estimation, covariance shrinkage, and optimization techniques. Chapter 4 presents the empirical findings and discusses the optimization results. Chapter 5 evaluates portfolio performance through historical backtesting and benchmark comparison. Finally, Chapter 6 summarizes the principal findings, discusses limitations, and provides recommendations for future research.

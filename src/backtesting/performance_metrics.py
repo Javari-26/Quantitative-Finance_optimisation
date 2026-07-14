@@ -146,7 +146,7 @@ def conditional_value_at_risk(
         portfolio_returns,
         confidence
     )
-
+  
     return portfolio_returns[
         portfolio_returns <= var
     ].mean()
